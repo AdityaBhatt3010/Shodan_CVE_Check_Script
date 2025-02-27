@@ -16,16 +16,14 @@ This script integrates Shodan’s scanning capabilities with the CIRCL CVE API t
 
 - Python 3.x
 - [Shodan Python library](https://pypi.org/project/shodan/)  
-  
+- [Requests library](https://pypi.org/project/requests/)
+
+  To install both the libraries, follow the command.
+    
   ```bash
-  pip install shodan
+  pip install -r requirements.txt
   ```
   
-- [Requests library](https://pypi.org/project/requests/)  
-  
-  ```bash
-  pip install requests
-  ```
 - A valid Shodan API key (free keys are available, though some endpoints/features may require a paid plan).
 
 ## Setup
